@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="31906768-d211-486b-92ce-47f9cb104aa1" name="FPN_TF" url="http://192.168.2.248">
+        <fileTransfer host="192.168.2.248" port="20022" rootFolder="/code/FPN_Tensorflow" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="20022" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
