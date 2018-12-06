@@ -115,12 +115,8 @@ python train.py
 cd $PATH_ROOT/output/summary
 tensorboard --logdir=.
 ``` 
-![1](images-1.png)
-![2](images-2.png)
-![3](images-3.png)
-![4](scalars-1.png)
-![5](scalars-2.png)
-![6](scalars-3.png)
+![1](images.png)
+![2](scalars.png)
 
 ## Reference
 1、https://github.com/endernewton/tf-faster-rcnn   
