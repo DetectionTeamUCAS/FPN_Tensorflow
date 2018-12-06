@@ -39,10 +39,10 @@ This project is based on [Faster-RCNN](https://github.com/DetectionTeamUCAS/Fast
 
 ## My Development Environment
 1、python3.5 (anaconda recommend)             
-2、cuda9.0 (If you want to use cuda8, please set CUDA9 = False in the cfgs.py file.)             
+2、cuda9.0 **(If you want to use cuda8, please set CUDA9 = False in the cfgs.py file.)**                    
 3、[opencv(cv2)](https://pypi.org/project/opencv-python/)    
 4、[tfplot](https://github.com/wookayin/tensorflow-plot)             
-5、tensorflow >= 1.10                   
+5、tensorflow == 1.10                   
 
 ## Download Model
 1、please download [resnet50_v1](http://download.tensorflow.org/models/resnet_v1_50_2016_08_28.tar.gz)、[resnet101_v1](http://download.tensorflow.org/models/resnet_v1_101_2016_08_28.tar.gz) pre-trained models on Imagenet, put it to $PATH_ROOT/data/pretrained_weights.         
@@ -115,8 +115,12 @@ python train.py
 cd $PATH_ROOT/output/summary
 tensorboard --logdir=.
 ``` 
-![2](scalars.png)
-![1](images.png)
+![1](images-1.png)
+![2](images-2.png)
+![3](images-3.png)
+![4](scalars-1.png)
+![5](scalars-2.png)
+![6](scalars-3.png)
 
 ## Reference
 1、https://github.com/endernewton/tf-faster-rcnn   
