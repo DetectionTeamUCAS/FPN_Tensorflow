@@ -57,7 +57,7 @@ def detect(det_net, inference_save_path, real_test_imgname_list):
             resized_img, detected_boxes, detected_scores, detected_categories = \
                 sess.run(
                     [img_batch, detection_boxes, detection_scores, detection_category],
-                    feed_dict={img_plac: raw_img[:, :, ::-1]}  # cv is BGR. But need RGB
+                    feed_dict={img_plac: raw_img}  
                 )
             end = time.time()
             # print("{} cost time : {} ".format(img_name, (end - start)))
@@ -127,6 +127,8 @@ def parse_args():
     args = parser.parse_args()
 
     return args
+
+
 if __name__ == '__main__':
 
     args = parse_args()

@@ -222,24 +222,31 @@ class DetectionNetwork(object):
                 level_i_rois = tf.gather(rois, level_i_indices)
 
                 if self.is_training:
-                    # If you use low version tensorflow, you may uncomment these code.
-                    # level_i_rois = tf.stop_gradient(tf.concat([level_i_rois, [[0, 0, 0., 0.]]], axis=0))
-                    # # to avoid the num of level i rois is 0.0, which will broken the BP in tf
-                    #
-                    # level_i_labels = tf.gather(labels, level_i_indices)
-                    # level_i_labels = tf.stop_gradient(tf.concat([level_i_labels, [0]], axis=0))
-                    #
-                    # level_i_targets = tf.gather(bbox_targets, level_i_indices)
-                    # level_i_targets = tf.stop_gradient(tf.concat([level_i_targets,
-                    #                                               tf.zeros(shape=(1, 4*(cfgs.CLASS_NUM+1)), dtype=tf.float32)],
-                    #                                              axis=0))
-                    level_i_rois = tf.stop_gradient(level_i_rois)
-                    level_i_labels = tf.gather(labels, level_i_indices)
-
-                    level_i_targets = tf.gather(bbox_targets, level_i_indices)
-
+                    if cfgs.CUDA9:
+                        # Note: for cuda 9
+                        level_i_rois = tf.stop_gradient(level_i_rois)
+                        level_i_labels = tf.gather(labels, level_i_indices)
+    
+                        level_i_targets = tf.gather(bbox_targets, level_i_indices)
+                    else:
+                        
+                        # Note: for cuda 8
+                        level_i_rois = tf.stop_gradient(tf.concat([level_i_rois, [[0, 0, 0., 0.]]], axis=0))
+                        # to avoid the num of level i rois is 0.0, which will broken the BP in tf
+    
+                        level_i_labels = tf.gather(labels, level_i_indices)
+                        level_i_labels = tf.stop_gradient(tf.concat([level_i_labels, [0]], axis=0))
+    
+                        level_i_targets = tf.gather(bbox_targets, level_i_indices)
+                        level_i_targets = tf.stop_gradient(tf.concat([level_i_targets,
+                                                                      tf.zeros(shape=(1, 4*(cfgs.CLASS_NUM+1)),
+                                                                               dtype=tf.float32)], axis=0))
+           
                     return level_i_rois, level_i_labels, level_i_targets
                 else:
+                    if not cfgs.CUDA9:
+                        # Note: for cuda 8
+                        level_i_rois = tf.concat([level_i_rois, [[0, 0, 0., 0.]]], axis=0)
                     return level_i_rois, None, None
 
             rois_list = []

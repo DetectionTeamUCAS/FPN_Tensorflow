@@ -39,11 +39,10 @@ This project is based on [Faster-RCNN](https://github.com/DetectionTeamUCAS/Fast
 
 ## My Development Environment
 1、python3.5 (anaconda recommend)             
-2、cuda9.0         
+2、cuda9.0 (If you want to use cuda8, please set CUDA9 = False in the cfgs.py file.)             
 3、[opencv(cv2)](https://pypi.org/project/opencv-python/)    
 4、[tfplot](https://github.com/wookayin/tensorflow-plot)             
-5、tensorflow >= 1.10      
-**If you use a lower version tensorflow, the assignment may be empty when assign rois, causing the gradient to not propagate and report an error. In this case, you need to manually add a rois, such as [0,0,0,0].**              
+5、tensorflow >= 1.10                   
 
 ## Download Model
 1、please download [resnet50_v1](http://download.tensorflow.org/models/resnet_v1_50_2016_08_28.tar.gz)、[resnet101_v1](http://download.tensorflow.org/models/resnet_v1_101_2016_08_28.tar.gz) pre-trained models on Imagenet, put it to $PATH_ROOT/data/pretrained_weights.         
