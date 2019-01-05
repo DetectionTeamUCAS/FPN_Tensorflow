@@ -1,7 +1,7 @@
 # Feature Pyramid Networks for Object Detection 
 
 ## Note
-**The code and model will be uploaded in the next few days.**
+**A [development version](https://github.com/DetectionTeamUCAS/FPN_Tensorflow_DEV) based on FPN.**
 
 ## Abstract
 This is a tensorflow re-implementation of [Feature Pyramid Networks for Object Detection](https://arxiv.org/abs/1612.03144).     
