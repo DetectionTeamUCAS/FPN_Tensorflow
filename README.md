@@ -1,7 +1,17 @@
 # Feature Pyramid Networks for Object Detection (Development Version) 
 
+<<<<<<< HEAD
 ## Abstract     
 This repo is based on [FPN](https://github.com/DetectionTeamUCAS/FPN_Tensorflow), and completed by [YangXue](https://github.com/yangxue0827) and [YangJirui](https://github.com/yangJirui).     
+=======
+## Note
+**A [development version](https://github.com/DetectionTeamUCAS/FPN_Tensorflow_DEV) based on FPN.**
+
+## Abstract
+This is a tensorflow re-implementation of [Feature Pyramid Networks for Object Detection](https://arxiv.org/abs/1612.03144).     
+
+This project is based on [Faster-RCNN](https://github.com/DetectionTeamUCAS/Faster-RCNN_Tensorflow), and completed by [YangXue](https://github.com/yangxue0827) and [YangJirui](https://github.com/yangJirui).     
+>>>>>>> 4566b9b2c4ea726c3fc00aeee4cb41bb7c42b5d4
 
 ## Train on VOC 2007 trainval and test on VOC 2007 test (PS. This project also support coco training.)     
 ![1](fpn_voc_2007.gif)
