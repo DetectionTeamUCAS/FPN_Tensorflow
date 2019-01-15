@@ -1,8 +1,5 @@
 # Feature Pyramid Networks for Object Detection (Development Version) 
 
-## Abstract 
-This repo is a implementation of [FPN](https://github.com/DetectionTeamUCAS/FPN_Tensorflow), and completed by [YangXue](https://github.com/yangxue0827) and [YangJirui](https://github.com/yangJirui).     
-
 ## Note
 **A [development version](https://github.com/DetectionTeamUCAS/FPN_Tensorflow_DEV) based on FPN.**
 
