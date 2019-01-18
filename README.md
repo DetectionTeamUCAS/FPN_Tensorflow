@@ -1,4 +1,4 @@
-# Feature Pyramid Networks for Object Detection (Development Version) 
+# Feature Pyramid Networks for Object Detection     
 
 ## Note
 **A [development version](https://github.com/DetectionTeamUCAS/FPN_Tensorflow_DEV) based on FPN.**
