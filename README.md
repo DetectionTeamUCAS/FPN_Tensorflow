@@ -1,7 +1,8 @@
 # Feature Pyramid Networks for Object Detection     
 
 ## Note
-**A [development version](https://github.com/DetectionTeamUCAS/FPN_Tensorflow_DEV) based on FPN.**
+**A [development version](https://github.com/DetectionTeamUCAS/FPN_Tensorflow_DEV) based on FPN.**   
+**Support multi-gpu training!**
 
 ## Abstract
 This is a tensorflow re-implementation of [Feature Pyramid Networks for Object Detection](https://arxiv.org/abs/1612.03144).     
@@ -24,7 +25,16 @@ This project is based on [Faster-RCNN](https://github.com/DetectionTeamUCAS/Fast
 |FPN resnet101_v1++|75.89|76.05|84.22|80.29|63.21|83.04|78.69|81.81|86.61|85.61|79.75|79.78|71.27|80.33|86.24|49.03|76.81|56.32|78.51|60.37|79.91|           
 
 **+: SHARE_NET=False**    
-**++: SHORT_SIDE_LEN=800, FAST_RCNN_MINIBATCH_SIZE=512**         
+**++: SHORT_SIDE_LEN=800, FAST_RCNN_MINIBATCH_SIZE=512**    
+
+## COCO
+|Model|Backbone|Train Schedule|GPU|Image/GPU|FP16|Box AP(Mask AP)|
+|-----|--------|--------------|---|---------|----|---------------|
+|Faster (ours)|R50v1-FPN|1X|1X TITAN Xp|1|no||
+|Faster (Face++)|R50v1-FPN|1X|8X TITAN Xp|2|no|36.4|
+|Faster (SimpleDet)|R50v1-FPN|1X|8X 1080Ti|2|no|36.5|
+
+![2](comparison.png)         
 
 ## My Development Environment
 1、python3.5 (anaconda recommend)             
@@ -98,13 +108,19 @@ cd $PATH_ROOT/tools
 python train.py
 ```
 
+4、multi-gpu train
+```  
+cd $PATH_ROOT/tools
+python multi_gpu_train.py
+```
+
 ## Tensorboard
 ```  
 cd $PATH_ROOT/output/summary
 tensorboard --logdir=.
 ``` 
-![1](images.png)
-![2](scalars.png)
+![3](images.png)
+![4](scalars.png)
 
 ## Reference
 1、https://github.com/endernewton/tf-faster-rcnn   
