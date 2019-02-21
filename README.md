@@ -30,7 +30,7 @@ This project is based on [Faster-RCNN](https://github.com/DetectionTeamUCAS/Fast
 ## COCO
 |Model|Backbone|Train Schedule|GPU|Image/GPU|FP16|Box AP(Mask AP)|
 |-----|--------|--------------|---|---------|----|---------------|
-|Faster (ours)|R50v1-FPN|1X|1X TITAN Xp|1|no||
+|Faster (ours)|R50v1-FPN|1X|1X TITAN Xp|1|no|36.1|
 |Faster (Face++ & Detectron)|R50v1-FPN|1X|8X TITAN Xp|2|no|36.4|
 |Faster (SimpleDet)|R50v1-FPN|1X|8X 1080Ti|2|no|36.5|
 
