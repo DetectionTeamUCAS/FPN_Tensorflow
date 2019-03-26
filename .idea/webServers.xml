@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a2a811fe-2ee1-4b41-87b3-ff988167c35d" name="FPN_TF" url="http://hh-b-internal.brainpp.cn">
+        <fileTransfer host="hh-b-internal.brainpp.cn" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/data/code/FPN_Tensorflow" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

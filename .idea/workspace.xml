@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ae89fae-f8d2-4cd4-8942-faa176d00a84" name="Default" comment="" />
+    <list default="true" id="5ae89fae-f8d2-4cd4-8942-faa176d00a84" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/quantization/BUILD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/quantization/graph_to_dot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/quantization/quantize_graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/quantization/quantize_graph_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/quantization/reference" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/FPN_Tensorflow.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FPN_Tensorflow.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,114 +25,7 @@
     <SUITE FILE_PATH="coverage/FPN_Tensorflow$voc_eval.coverage" NAME="voc_eval Coverage Results" MODIFIED="1543664005837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/libs/val_libs" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tools/train.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="29" column="22" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="22" />
-              <folding>
-                <element signature="e#24#62#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tools/eval.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2945">
-              <caret line="155" column="37" selection-start-line="155" selection-start-column="37" selection-end-line="155" selection-end-column="37" />
-              <folding>
-                <element signature="e#24#62#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tools/inference.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/io/image_preprocess.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="703">
-              <caret line="43" column="113" selection-start-line="43" selection-start-column="113" selection-end-line="43" selection-end-column="113" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libs/configs/cfgs_res101_fpn.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1596">
-              <caret line="86" column="20" selection-end-line="208" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libs/networks/resnet.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2470">
-              <caret line="130" column="42" selection-start-line="130" selection-start-column="42" selection-end-line="130" selection-end-column="42" />
-              <folding>
-                <element signature="e#25#89#0" expanded="true" />
-                <element signature="e#9022#9887#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tools/multi_gpu_train.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2071">
-              <caret line="109" column="46" selection-start-line="109" selection-start-column="46" selection-end-line="109" selection-end-column="46" />
-              <folding>
-                <element signature="e#24#62#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tools/test_coco.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libs/box_utils/draw_box_in_img.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1273">
-              <caret line="75" column="31" selection-start-line="75" selection-start-column="31" selection-end-line="75" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="646">
-                <caret line="34" selection-start-line="34" selection-end-line="34" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -135,6 +39,7 @@
       <find>ROO_PATH</find>
       <find>FIX</find>
       <find>SHA</find>
+      <find>output_node_names</find>
     </findStrings>
     <replaceStrings>
       <replace>ROOT_PATH</replace>
@@ -150,7 +55,6 @@
         <option value="$PROJECT_DIR$/libs/networks/build_whole_network2.py" />
         <option value="$PROJECT_DIR$/libs/val_libs/voc_eval.py" />
         <option value="$PROJECT_DIR$/libs/cfgs_re101_fpn_v1.py" />
-        <option value="$PROJECT_DIR$/tools/train.py" />
         <option value="$PROJECT_DIR$/libs/configs/cfgs_re101_fpn_v1.py" />
         <option value="&lt;31906768-d211-486b-92ce-47f9cb104aa1&gt;/output/trained_weights/FPN_Res101_20181201/checkpoint" />
         <option value="$PROJECT_DIR$/libs/configs/cfgs_res101_fpn.py" />
@@ -171,6 +75,9 @@
         <option value="$PROJECT_DIR$/eval_coco.py" />
         <option value="$PROJECT_DIR$/tools/test_coco.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/tools/train.py" />
+        <option value="$PROJECT_DIR$/libs/export_pbs/exportPb.py" />
+        <option value="$PROJECT_DIR$/libs/quantize/quantization/reference" />
       </list>
     </option>
   </component>
@@ -185,6 +92,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -206,17 +114,45 @@
             <path>
               <item name="FPN_Tensorflow" type="b2602c69:ProjectViewProjectNode" />
               <item name="FPN_Tensorflow" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FPN_Tensorflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FPN_Tensorflow" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+              <item name="configs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FPN_Tensorflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FPN_Tensorflow" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+              <item name="detection_oprations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FPN_Tensorflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FPN_Tensorflow" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+              <item name="export_pbs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FPN_Tensorflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FPN_Tensorflow" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+              <item name="quantization" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FPN_Tensorflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FPN_Tensorflow" type="462c0819:PsiDirectoryNode" />
               <item name="tools" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
@@ -226,15 +162,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\yx\FPN_Tensorflow\libs\configs" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/libs" />
       <recent name="$PROJECT_DIR$/tools" />
       <recent name="E:\yx\FPN_Tensorflow" />
       <recent name="E:\yx\FPN_Tensorflow\tools" />
       <recent name="E:\yx\FPN_Tensorflow\libs" />
-      <recent name="E:\yx\FPN_Tensorflow\libs\label_name_dict" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\yx\FPN_Tensorflow\libs\configs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -367,21 +303,22 @@
       <workItem from="1550552234637" duration="100000" />
       <workItem from="1550552486105" duration="114000" />
       <workItem from="1550557587521" duration="610000" />
+      <workItem from="1553496561846" duration="5698000" />
+      <workItem from="1553602131896" duration="1977000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1973000" />
+    <option name="totallyTimeSpent" value="9648000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.12562259" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.19922523" />
       <window_info id="Structure" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="File Transfer" order="1" weight="0.23042999" />
+      <window_info anchor="bottom" id="File Transfer" order="1" visible="true" weight="0.23012552" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Python Console" order="3" />
       <window_info anchor="bottom" id="Terminal" order="4" />
@@ -396,7 +333,7 @@
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="Data View" order="1" />
-      <window_info anchor="right" id="Remote Host" order="2" weight="0.20641948" />
+      <window_info anchor="right" id="Remote Host" order="2" visible="true" weight="0.20641948" />
       <window_info anchor="right" id="Commander" order="3" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
@@ -542,19 +479,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tools/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="22" />
-          <folding>
-            <element signature="e#24#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tools/eval.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2945">
+        <state relative-caret-position="2774">
           <caret line="155" column="37" selection-start-line="155" selection-start-column="37" selection-end-line="155" selection-end-column="37" />
           <folding>
             <element signature="e#24#62#0" expanded="true" />
@@ -583,9 +510,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tools/multi_gpu_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1919">
+          <caret line="109" column="46" selection-start-line="109" selection-start-column="46" selection-end-line="109" selection-end-column="46" />
+          <folding>
+            <element signature="e#24#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/test_coco.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="76">
+            <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/box_utils/draw_box_in_img.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="37" column="73" lean-forward="true" selection-start-line="37" selection-start-column="73" selection-end-line="37" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/libs/networks/resnet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2470">
+        <state relative-caret-position="866">
           <caret line="130" column="42" selection-start-line="130" selection-start-column="42" selection-end-line="130" selection-end-column="42" />
           <folding>
             <element signature="e#25#89#0" expanded="true" />
@@ -594,37 +555,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tools/multi_gpu_train.py">
+    <entry file="file://$PROJECT_DIR$/tools/train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2071">
-          <caret line="109" column="46" selection-start-line="109" selection-start-column="46" selection-end-line="109" selection-end-column="46" />
+        <state relative-caret-position="342">
+          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
           <folding>
             <element signature="e#24#62#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libs/box_utils/draw_box_in_img.py">
+    <entry file="file://$PROJECT_DIR$/libs/quantize/python/common_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1273">
-          <caret line="75" column="31" selection-start-line="75" selection-start-column="31" selection-end-line="75" selection-end-column="31" />
-        </state>
+        <state relative-caret-position="-1718" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tools/test_coco.py">
+    <entry file="file://$PROJECT_DIR$/libs/quantize/python/quantize_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
-        </state>
+        <state relative-caret-position="-9926" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/libs/quantize/BUILD">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4135" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/quantize/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="646">
-            <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <first_editor relative-caret-position="866">
+            <caret line="86" column="12" selection-start-line="86" selection-end-line="86" selection-end-column="12" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/export_pbs/exportPb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="48" lean-forward="true" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+          <folding>
+            <element signature="e#25#89#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/quantize/quantization/reference">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" selection-start-column="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/quantize/python/quantize_graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2356">
+          <caret line="136" column="20" lean-forward="true" selection-start-line="136" selection-start-column="20" selection-end-line="136" selection-end-column="20" />
+          <folding>
+            <element signature="e#744#782#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/quantize/python/quantize_graph_test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/quantize/quantization/graph_to_dot.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/quantize/quantization/quantize_graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3990" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/quantization/BUILD">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
         </state>
       </provider>
     </entry>
