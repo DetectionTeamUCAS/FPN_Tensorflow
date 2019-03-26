@@ -101,4 +101,5 @@ ENV/
 .mypy_cache/
 
 .pyc
+.idea
 

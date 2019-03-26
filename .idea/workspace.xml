@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ae89fae-f8d2-4cd4-8942-faa176d00a84" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/quantization/BUILD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/quantization/graph_to_dot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/quantization/quantize_graph.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/quantization/quantize_graph_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/quantization/reference" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/FPN_Tensorflow.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FPN_Tensorflow.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/FPN_Tensorflow.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +24,17 @@
     <SUITE FILE_PATH="coverage/FPN_Tensorflow$voc_eval.coverage" NAME="voc_eval Coverage Results" MODIFIED="1543664005837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/libs/val_libs" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="99" column="6" lean-forward="true" selection-start-line="99" selection-start-column="6" selection-end-line="99" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -78,6 +87,7 @@
         <option value="$PROJECT_DIR$/tools/train.py" />
         <option value="$PROJECT_DIR$/libs/export_pbs/exportPb.py" />
         <option value="$PROJECT_DIR$/libs/quantize/quantization/reference" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -305,17 +315,19 @@
       <workItem from="1550557587521" duration="610000" />
       <workItem from="1553496561846" duration="5698000" />
       <workItem from="1553602131896" duration="1977000" />
+      <workItem from="1553611130023" duration="47000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9648000" />
+    <option name="totallyTimeSpent" value="9695000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.19922523" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.20143884" />
       <window_info id="Structure" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
       <window_info anchor="bottom" id="File Transfer" order="1" visible="true" weight="0.23012552" />
@@ -565,31 +577,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libs/quantize/python/common_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1718" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/quantize/python/quantize_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9926" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/quantize/BUILD">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4135" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/quantize/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="866">
-            <caret line="86" column="12" selection-start-line="86" selection-end-line="86" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/quantize/python/common_test.py" />
+    <entry file="file://$PROJECT_DIR$/libs/quantize/python/quantize_test.py" />
+    <entry file="file://$PROJECT_DIR$/libs/quantize/BUILD" />
+    <entry file="file://$PROJECT_DIR$/libs/quantize/README.md" />
     <entry file="file://$PROJECT_DIR$/libs/export_pbs/exportPb.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -600,38 +591,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libs/quantize/quantization/reference">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="37" selection-start-column="37" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/quantize/python/quantize_graph.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2356">
-          <caret line="136" column="20" lean-forward="true" selection-start-line="136" selection-start-column="20" selection-end-line="136" selection-end-column="20" />
-          <folding>
-            <element signature="e#744#782#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/quantize/python/quantize_graph_test.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/quantize/quantization/graph_to_dot.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/quantize/quantization/quantize_graph.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3990" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/quantize/quantization/reference" />
+    <entry file="file://$PROJECT_DIR$/libs/quantize/python/quantize_graph.py" />
+    <entry file="file://$PROJECT_DIR$/libs/quantize/python/quantize_graph_test.py" />
+    <entry file="file://$PROJECT_DIR$/libs/quantize/quantization/graph_to_dot.py" />
+    <entry file="file://$PROJECT_DIR$/libs/quantize/quantization/quantize_graph.py" />
     <entry file="file://$PROJECT_DIR$/libs/quantization/BUILD">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="99" column="6" lean-forward="true" selection-start-line="99" selection-start-column="6" selection-end-line="99" selection-end-column="6" />
         </state>
       </provider>
     </entry>
